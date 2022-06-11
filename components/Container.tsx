@@ -5,14 +5,5 @@ export default function Container({
   children,
   className,
 }: PropsWithChildren<{ className?: string }>) {
-  return (
-    <div
-      className={classnames(
-        "w-full md:max-w-[700px] md:mx-auto px-2",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
+  return <div className={classnames("container", className)}>{children}</div>;
 }

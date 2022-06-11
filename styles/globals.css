@@ -8,6 +8,11 @@
       @apply prose;
     }
 
+    article,
+    .container {
+      @apply w-full max-w-full md:max-w-[700px] md:mx-auto px-2;
+    }
+
     &,
     article {
       h2 {
