@@ -17,9 +17,11 @@ function HomeHeader() {
           Our purpose is to bring the Mackay technology community together, break down silos and foster a positive and inclusive environment for all to participate in.
         </h2>
         <div className="flex flex-wrap align-center md:justify-center gap-y-2 gap-x-4 my-2 md:my-8">
-          <Button large accent>
-            Join us on Slack!
-          </Button>
+          <a className="border-y-0" href="https://join.slack.com/t/sugarcityio/shared_invite/zt-1acjtxl1w-yyzp5TUGmkURiYE4Y3fYCA" target="_blank" rel="noreferrer">
+            <Button large accent>
+              Join us on Slack!
+            </Button>
+          </a>
         </div>
         <div className="w-full mt-12 border-[16px] rounded-md border-gray-700 drop-shadow-xl">
           <Image
