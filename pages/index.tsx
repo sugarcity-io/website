@@ -3,6 +3,8 @@ import Container from "components/Container";
 import { Footer } from "components/Footer";
 import Lorem from "components/Lorem";
 import Nav from "components/Nav";
+import Image from "next/image";
+import featureImage from "../images/bike-on-cane.jpg";
 
 function HomeHeader() {
   return (
@@ -20,10 +22,12 @@ function HomeHeader() {
           </Button>
           <Button large>Some other CTA!</Button>
         </div>
-        <img
-          className="w-full mt-12 border-[16px] rounded-md border-gray-700 drop-shadow-xl"
-          src="https://d33wubrfki0l68.cloudfront.net/10c522e1893fe76a55c3e32f8d6840b1e23889ce/c45a3/images/teaser.jpg"
-        />
+        <div className="w-full mt-12 border-[16px] rounded-md border-gray-700 drop-shadow-xl">
+          <Image
+            src={featureImage}
+            alt="bike on cane"
+          />
+        </div>
       </Container>
     </header>
   );
