@@ -9,9 +9,6 @@ function HomeHeader() {
     <header className="bg-gray-100 py-2">
       <Nav />
       <Container className="md:my-16">
-        <h1 className="text-3xl my-2 md:my-8 md:text-6xl font-bold md:text-center">
-          Sugarcity.io
-        </h1>
         <h2 className="text-lg w-full max-w-[1200px] md:mx-auto md:text-1xl md:text-left text-gray-500 font-normal my-2 md:my-8">
           Sugarcity.io is a community owned and run group of technologists, engineers, digital marketers and innovation enthusiasts, based in Mackay, Queensland.
           <br/>
