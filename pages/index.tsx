@@ -1,7 +1,7 @@
 import Button from "components/Button";
 import Container from "components/Container";
 import { Footer } from "components/Footer";
-import Lorem from "components/Lorem";
+import Blurb from "components/Blurb";
 import Nav from "components/Nav";
 import Image from "next/image";
 import featureImage from "../images/bike-on-cane.jpg";
@@ -22,10 +22,11 @@ function HomeHeader() {
           all to participate in.
         </h3>
         <div className="flex flex-wrap align-center md:justify-center gap-y-2 gap-x-4 my-2 md:my-8">
-          <Button large accent>
-            Join us on Slack!
-          </Button>
-          <Button large>Some other CTA!</Button>
+          <a className="border-y-0" href="https://join.slack.com/t/sugarcityio/shared_invite/zt-1acjtxl1w-yyzp5TUGmkURiYE4Y3fYCA" target="_blank" rel="noreferrer">
+            <Button large accent>
+              Join us on Slack!
+            </Button>
+          </a>
         </div>
         <div className="w-full mt-12 border-[16px] rounded-md border-gray-700 drop-shadow-xl">
           <Image src={featureImage} alt="bike on cane" />
@@ -40,7 +41,7 @@ export default function Home() {
     <>
       <HomeHeader />
       <Container>
-        <Lorem />
+        <Blurb />
       </Container>
       <Footer />
     </>

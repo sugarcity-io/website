@@ -7,7 +7,8 @@ export default function About() {
       <Nav />
       <article>
         <h1>About</h1>
-        <p>This is a great but entirely empty page.</p>
+        <p>Sugarcity.io is a community owned and run group of technologists, engineers, digital marketers and innovation enthusiasts, based in Mackay, Queensland.
+Our purpose is to bring the Mackay technology community together, break down silos and foster a positive and inclusive environment for all to participate in.</p>
       </article>
       <Footer />
     </>

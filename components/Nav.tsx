@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 import Container from "./Container";
 import Link from "next/link";
 import Image from "next/image";
-import logo from '../images/sugarcity-io-light.svg'
+import logo from "../images/sugarcity-io-light.svg";
 
 function NavLink({ children, href }: PropsWithChildren<{ href: string }>) {
   return (
@@ -17,10 +17,7 @@ export default function Nav() {
     <nav>
       <Container className="flex justify-between items-center wrap gap-x-4 gap-y-2 md:pt-8 pb-8">
         <div>
-          <Image
-            src={logo}
-            alt="sugarcity.io logo"
-          />
+          <Image src={logo} alt="sugarcity.io logo" />
         </div>
         <div className="flex wrap gap-x-4">
           <NavLink href={"/"}>Home</NavLink>
