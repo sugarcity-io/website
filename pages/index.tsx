@@ -12,8 +12,10 @@ function HomeHeader() {
         <h1 className="text-3xl my-2 md:my-8 md:text-6xl font-bold md:text-center">
           Sugarcity.io
         </h1>
-        <h2 className="text-lg w-full max-w-[600px] md:mx-auto md:text-2xl md:text-center text-gray-500 font-normal my-2 md:my-8">
-          Some extra text to include below the title
+        <h2 className="text-lg w-full max-w-[1200px] md:mx-auto md:text-1xl md:text-left text-gray-500 font-normal my-2 md:my-8">
+          Sugarcity.io is a community owned and run group of technologists, engineers, digital marketers and innovation enthusiasts, based in Mackay, Queensland.
+          <br/>
+          Our purpose is to bring the Mackay technology community together, break down silos and foster a positive and inclusive environment for all to participate in.
         </h2>
         <div className="flex flex-wrap align-center md:justify-center gap-y-2 gap-x-4 my-2 md:my-8">
           <Button large accent>
