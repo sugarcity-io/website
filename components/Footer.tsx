@@ -19,7 +19,7 @@ export function Footer() {
     <Container className="my-16">
       <hr />
       <div className="flex justify-between flex-wrap gap-4 items-center">
-        <div className="text-gray-500">Maybe some text about something</div>
+        <div className="text-gray-500">Proudly Grown in Mackay, QLD.</div>
         <div className="flex gap-4 flex-wrap">
           <FooterLink href="https://github.com/sugarcity-io">Github</FooterLink>
           <FooterLink href="https://github.com/sugarcity-io/website">
