@@ -8,18 +8,19 @@ import featureImage from "../images/bike-on-cane.jpg";
 
 function HomeHeader() {
   return (
-    <header className="bg-gray-100 py-2">
+    <header className="bg-gray-100">
       <Nav />
-      <Container className="md:my-16">
-        <h2 className="text-lg w-full max-w-[1200px] md:mx-auto md:text-1xl md:text-left text-gray-500 font-normal my-2 md:my-8">
+      <Container className="md:pb-16">
+        <h2 className="text-xl md:text-center md:text-2xl text-gray-700 font-normal my-2 md:my-8">
           Sugarcity.io is a community owned and run group of technologists,
           engineers, digital marketers and innovation enthusiasts, based in
           Mackay, Queensland.
-          <br />
+        </h2>
+        <h3 className="text-lg md:mx-auto md:max-w-[500px] w-full md:text-center text-gray-600">
           Our purpose is to bring the Mackay technology community together,
           break down silos and foster a positive and inclusive environment for
           all to participate in.
-        </h2>
+        </h3>
         <div className="flex flex-wrap align-center md:justify-center gap-y-2 gap-x-4 my-2 md:my-8">
           <a className="border-y-0" href="https://join.slack.com/t/sugarcityio/shared_invite/zt-1acjtxl1w-yyzp5TUGmkURiYE4Y3fYCA" target="_blank" rel="noreferrer">
             <Button large accent>

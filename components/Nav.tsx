@@ -15,7 +15,7 @@ function NavLink({ children, href }: PropsWithChildren<{ href: string }>) {
 export default function Nav() {
   return (
     <nav>
-      <Container className="flex justify-between items-center wrap gap-x-4 gap-y-2 md:mt-8 mb-8">
+      <Container className="flex justify-between items-center wrap gap-x-4 gap-y-2 md:pt-8 pb-8">
         <div>
           <Image src={logo} alt="sugarcity.io logo" />
         </div>
