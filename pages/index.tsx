@@ -1,7 +1,7 @@
 import Button from "components/Button";
 import Container from "components/Container";
 import { Footer } from "components/Footer";
-import Lorem from "components/Lorem";
+import Blurb from "components/Blurb";
 import Nav from "components/Nav";
 import Image from "next/image";
 import featureImage from "../images/bike-on-cane.jpg";
@@ -20,7 +20,6 @@ function HomeHeader() {
           <Button large accent>
             Join us on Slack!
           </Button>
-          <Button large>Some other CTA!</Button>
         </div>
         <div className="w-full mt-12 border-[16px] rounded-md border-gray-700 drop-shadow-xl">
           <Image
@@ -38,7 +37,7 @@ export default function Home() {
     <>
       <HomeHeader />
       <Container>
-        <Lorem />
+        <Blurb />
       </Container>
       <Footer />
     </>
