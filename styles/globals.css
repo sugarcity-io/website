@@ -32,7 +32,7 @@
       }
 
       a {
-        @apply border-b font-bold text-green-500 hover:text-green-600 border-green-400 hover:border-green-600 no-underline;
+        @apply border-b font-bold text-[#40b93c] hover:text-green-600 border-green-400 hover:border-green-600 no-underline;
       }
     }
   }

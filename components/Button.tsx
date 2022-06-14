@@ -13,7 +13,7 @@ function createButtonClass(props: ButtonProps): string {
     "py-2 px-4 rounded-md",
     props.large && "md:text-xl md:py-3 md:px-5 md:rounded-lg",
     props.accent
-      ? "bg-green-500 hover:bg-green-600 text-white drop-shadow-md"
+      ? "bg-[#40b93c] hover:bg-green-600 text-white drop-shadow-md"
       : "bg-white hover:bg-gray-100 drop-shadow-lg",
     props.className
   );
